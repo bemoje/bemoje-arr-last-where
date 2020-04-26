@@ -1,6 +1,6 @@
 # @bemoje/arr-last-where
 
-Return the first element of an array where the callback returns true.
+Return the last element of an array where the callback returns true.
 
 #### Version
 
@@ -62,7 +62,7 @@ npm run test
 ## API
 ### arrLastWhere
 
-Return the first element of an array where the callback returns true.
+Return the last element of an array where the callback returns true.
 
 ##### Parameters
 
@@ -71,7 +71,7 @@ Return the first element of an array where the callback returns true.
 -   `callback` **[callback][6]** callback(element, index, array): boolean
 
 ##### Returns
-**any** The first element to satisfy the condition
+**any** The last element to satisfy the condition in the callback
 
 ## callback
 

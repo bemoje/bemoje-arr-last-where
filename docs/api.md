@@ -9,14 +9,14 @@
 
 ## arrLastWhere
 
-Return the first element of an array where the callback returns true.
+Return the last element of an array where the callback returns true.
 
 ### Parameters
 
 -   `arr` **[Array][5]** The array to iterate
 -   `callback` **[callback][6]** callback(element, index, array): boolean
 
-Returns **any** The first element to satisfy the condition
+Returns **any** The last element to satisfy the condition in the callback
 
 ## callback
 

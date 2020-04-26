@@ -1,7 +1,7 @@
 {
    "name": "@bemoje/arr-last-where",
-   "version": "1.0.0",
-   "description": "Return the first element of an array where the callback returns true.",
+   "version": "1.0.1",
+   "description": "Return the last element of an array where the callback returns true.",
    "main": "dist/arr-last-where.umd.js",
    "module": "dist/arr-last-where.esm.js",
    "browser": "dist/arr-last-where.umd.js",

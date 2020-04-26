@@ -8,10 +8,10 @@
 	assertType = assertType && Object.prototype.hasOwnProperty.call(assertType, 'default') ? assertType['default'] : assertType;
 
 	/**
-	 * Return the first element of an array where the callback returns true.
+	 * Return the last element of an array where the callback returns true.
 	 * @param {Array} arr - The array to iterate
 	 * @param {callback} callback - callback(element, index, array): boolean
-	 * @returns {any} The first element to satisfy the condition
+	 * @returns {any} The last element to satisfy the condition in the callback
 	 */
 	function arrLastWhere(arr, callback) {
 		assertArgs(arr, callback);
